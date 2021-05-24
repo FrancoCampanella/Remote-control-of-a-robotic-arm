@@ -1,1 +1,1 @@
-print("Hola mundo modificado")
+print("Hola mundo modificado: temple simulado")
