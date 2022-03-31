@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>XmlRpc.h</itemPath>
+      <itemPath>XmlRpcClient.h</itemPath>
+      <itemPath>XmlRpcDispatch.h</itemPath>
+      <itemPath>XmlRpcException.h</itemPath>
+      <itemPath>XmlRpcServer.h</itemPath>
+      <itemPath>XmlRpcServerConnection.h</itemPath>
+      <itemPath>XmlRpcServerMethod.h</itemPath>
+      <itemPath>XmlRpcSocket.h</itemPath>
+      <itemPath>XmlRpcSource.h</itemPath>
+      <itemPath>XmlRpcUtil.h</itemPath>
+      <itemPath>XmlRpcValue.h</itemPath>
+      <itemPath>base64.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>XmlRpcClient.cpp</itemPath>
+      <itemPath>XmlRpcDispatch.cpp</itemPath>
+      <itemPath>XmlRpcServer.cpp</itemPath>
+      <itemPath>XmlRpcServerConnection.cpp</itemPath>
+      <itemPath>XmlRpcServerMethod.cpp</itemPath>
+      <itemPath>XmlRpcSocket.cpp</itemPath>
+      <itemPath>XmlRpcSource.cpp</itemPath>
+      <itemPath>XmlRpcUtil.cpp</itemPath>
+      <itemPath>XmlRpcValue.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>cliente_cmd.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="XmlRpc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcDispatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcDispatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcServerConnection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcServerConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcServerMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcServerMethod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcSource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcSource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cliente_cmd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="XmlRpc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcDispatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcDispatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcServerConnection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcServerConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcServerMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcServerMethod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcSource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcSource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="XmlRpcValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="XmlRpcValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cliente_cmd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
